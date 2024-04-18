@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* Header */
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: space-between;
+    padding: 0 150px;
+    font-weight: bold;
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: lighter;
+}
+ul {
+    display: flex;
+    gap: 12px;
+}
+/* Content One */
+.content-one {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 60px 150px 80px;
+    gap: 25px;
+    
+}
+.content-one-left {
+    flex:1;
+    font-size: 18px;
+    
+}
+.content-one-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.content-one-left p {
+    margin: 5px 0;
+}
+#content-one-button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border-width: 0;
+}
+.content-one-right {
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    flex: 1;
+    border-radius: 15px;
+}
+/* Content Two */
+.content-two {
+ padding: 10px 150px 50px;
+ text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+.card div {
+    width: 100px;
+    height: 100px;
+    border: solid 3px ;
+    border-radius: 5px;
+    border-color: #3882F6;
+}
+/* Content Three */
+.content-three {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    
+}
+span {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+}
+/* Content four */
+.content-four {
+    margin: 50px 150px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+.content-four-left {
+ flex:2;
+ color: #F9FAF8;
+}
+.content-four-left p, .content-four-left h4 {
+    margin: 0;
+}
+.content-four-right {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-four-right button  {
+ padding: 5px 20px;
+ background-color: #3882F6;
+ border-color: #E5E7EB;
+ border-style: solid;
+ border-radius: 5px;
+ color: #F9FAF8;
+}
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 20px;
+}
